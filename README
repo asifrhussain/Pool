@@ -1,0 +1,7 @@
+Pool.py - thread safe pool of resources
+
+- All resources are put in a list
+- Locks are used to synchronize access to the list
+- Polling is used to check if resources are busy
+- pool_test.py tests various methods by spawning four threads
+- A list may be replaced by a dict(hash) for faster lookup
