@@ -6,6 +6,7 @@ import time
 
 ##################################################
 ### Module for a thread safe pool of resources ###
+### Asif R. Hussain                            ###
 ##################################################
 
 
